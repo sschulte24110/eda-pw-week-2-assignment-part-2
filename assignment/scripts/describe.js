@@ -26,9 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We assign a variable called name and set it to 'Dane'.
+// Then we have a conditional, that if name is Mary, there will be a console log of 'Hi, Mary!'.
+// If name is anything else, there will be a console log of 'How do you do?'.
+// Since name = Dane and hadn't been changed, we will see 'How do you do?' in the console.
 //
 
 //CODE
@@ -45,9 +46,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// A variable of secret is declared. A variable of code is declared and it is assigned the number 123. 
+// There is a conditional that if the code === 123, secret will then be assigned the string 'super' and code will now equal code times 2. 
+// This means that now the following is true:
+// secret = 'super'
+// code = 246
+// Another conditional will then run that if the code is now greater than 250, secret will now be assigned a string of 'duper.
+// Since code = 246, code does not fulfill the second conditional therefore a console.log(secret) will return the string 'super'.
 //
 
 //CODE
@@ -70,10 +75,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// A variable of isStudent is assigned the boolean of true. A variable of age is assigned the number 34. A variable of zip is assigned the number of 55407.
+// A conditional with multiple if/else statements will cause one console.log to run. If statement 1 is correct because isStudent is true, but the zip is not greater than 80000. Therefore the console.log(`You're a student on the West Coast!`) will not run. 
+// If statement 2 will not run because both parts of the statement are not true. The variable is a student and they are older than 30 years old. Therefore, the console.log('What are your hobbies?') will not run. 
+// If statement 3 matches the variable isStudent = true so a console.log of 'Welcome to Prime!' will run in the console. 
+// The last statement will not run because the program stops once it meets the condtional set forth in if statement 3 that is true. 
 
 //CODE
 /*
@@ -134,6 +140,13 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix -- Only colorOne will be set to 'purple' according to the variables and conditional. If (mix === true) it should appear as the following according to the instructions:
+// if (mix === true) {
+//   colorOne = 'purple',
+//   colorTwo = 'purple';
+// }
+// If I could change it completely, I would create a colorThree = 'purple' if mix === true. This seems more logical to me, rather than assigning 'purple' to both colorOne and colorTwo. 
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,6 +159,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
+// Fix -- the wording is incorrect because the conditional has an 'Or' (||) operator instead of an 'AND' (&&) operator. To make the description correct, replace the || with &&. I also have a problem with using const instead of let for the time. To me, time would be a variable that changes and doesn't stay constant in this instance since you are dealing with time being left out of a fridge or cooling space. 
+// let time = 4 -- would be more correct in this instance. 
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -165,5 +180,12 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+// Fix -- I would completely rewrite to the following:
+if (age >= minAge) {
+  console.log('entry');
+} else {
+  console.log('no entry');
+}
+// At minimum, 'entry' and 'no entry' need to change places in the conditional because entry should be given to someone who is greater than or equal to the age 21. 
 */
 
