@@ -182,10 +182,10 @@ if(minAge <= age) {
 }
 // Fix -- I would completely rewrite to the following:
 if (age >= minAge) {
-  console.log('entry');
+  console.log('enter');
 } else {
   console.log('no entry');
 }
-// At minimum, 'entry' and 'no entry' need to change places in the conditional because entry should be given to someone who is greater than or equal to the age 21. 
+// At minimum, 'enter' and 'no entry' need to change places in the conditional because entry should be given to someone who is greater than or equal to the age 21. 
 */
 
