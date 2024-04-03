@@ -140,12 +140,14 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// Fix -- colorOne and colorTwo are switched according to the description. colorOne should be blue and colorTwo should be read.
 // Fix -- Only colorOne will be set to 'purple' according to the variables and conditional. If (mix === true) it should appear as the following according to the instructions:
 // if (mix === true) {
 //   colorOne = 'purple',
 //   colorTwo = 'purple';
 // }
 // If I could change it completely, I would create a colorThree = 'purple' if mix === true. This seems more logical to me, rather than assigning 'purple' to both colorOne and colorTwo. 
+
 
 if (mix === true) {
   colorOne = 'purple';
